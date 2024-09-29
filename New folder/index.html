@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+    <!-- favicon -->
+      <link rel="shortcut icon" href="img/logo.png_02.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+  <div class="overlay" data-overlay>
+  
+  </div>
+
+<!----------------------- 
+    -MODAL  
+------------------------>
+
+  <div class="modal closed" data-modal>
+  
+    <div class="modal-close-overlay" data-modal-overlaly></div>
+
+    <div class="modal-contact">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+      
+      <div class="newsletter-img">
+        <img src="img/news-letter.png_(01).png" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+        
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3> 
+
+            <p class="newsletter-dese">
+              subscribe the <strong>Bappi</strong> to get letter products and discount update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">
+            Subscribe
+          </button>
+      
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- 
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notificatin-toast" data-toast>
+    <button class="tost-close-btn" data-toast-close>
+    <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="img/product_01.png" alt="Yellow Gold" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-massage">Someone in new just bought</p>
+
+      <p class="toast-title">Yellow Gold</p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">2 Minutes</time> ago
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    <!-- custom js link -->
+  <script src="main.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
